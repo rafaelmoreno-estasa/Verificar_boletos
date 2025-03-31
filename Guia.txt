@@ -1,0 +1,21 @@
+= -1, 0 , 2
+
+Cobrança 30215 - Sem status
+
+pendentes : 
+    "fl_status_recb": "0",
+    "fl_remessastatus_recb": "0"
+   
+    
+Cobrança 33585 - Marcada para Remessa
+
+pendentes : 
+    "fl_status_recb": "0",
+    "fl_remessastatus_recb": "1"
+
+Cobrança 33584 - Remessa Enviada
+
+pendentes :
+    "fl_status_recb": "0"
+    "fl_remessastatus_recb": "2"
+

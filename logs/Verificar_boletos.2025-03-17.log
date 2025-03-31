@@ -1,0 +1,235 @@
+17/03/2025 09:47:05 |  10680 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 09:47:06 |  10680 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 09:47:07 |  10680 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 09:47:08 |  10680 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 09:47:08 |  10680 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 09:47:09 |  10680 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 09:47:10 |  10680 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 09:47:11 |  10680 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 09:47:11 |  10680 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 09:47:11 |  10680 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 09:50:27 |  17096 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 09:50:28 |  17096 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 09:50:29 |  17096 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 09:50:30 |  17096 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 09:50:31 |  17096 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 09:50:31 |  17096 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 09:50:32 |  17096 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 09:50:32 |  17096 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 09:50:32 |  17096 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 09:50:32 |  17096 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 12:52:24 |  11812 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 12:52:25 |  11812 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 12:52:26 |  11812 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 12:52:26 |  11812 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 12:52:27 |  11812 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 12:52:27 |  11812 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 12:52:28 |  11812 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 12:52:29 |  11812 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 12:52:29 |  11812 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 12:52:29 |  11812 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 12:56:53 |  16980 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 12:56:53 |  16980 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 12:56:54 |  16980 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 12:56:55 |  16980 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 12:56:55 |  16980 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 12:56:56 |  16980 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 12:56:56 |  16980 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 12:56:57 |  16980 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 12:56:57 |  16980 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 12:56:57 |  16980 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 13:13:04 |   4668 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 13:13:05 |   4668 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 13:13:06 |   4668 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 13:13:07 |   4668 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 13:13:08 |   4668 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 13:13:08 |   4668 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 13:13:09 |   4668 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 13:13:10 |   4668 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 13:13:10 |   4668 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 13:13:10 |   4668 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 13:16:53 |  19548 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 13:16:54 |  19548 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 13:16:55 |  19548 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 13:16:56 |  19548 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 13:16:56 |  19548 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 13:16:57 |  19548 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 13:16:58 |  19548 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 13:16:58 |  19548 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 13:16:58 |  19548 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 13:16:58 |  19548 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 13:25:59 |  27900 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 13:26:00 |  27900 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 13:26:01 |  27900 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 13:26:01 |  27900 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 13:26:02 |  27900 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 13:26:03 |  27900 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 13:26:03 |  27900 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 13:26:04 |  27900 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 13:26:04 |  27900 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 13:26:04 |  27900 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 13:26:21 |  28016 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 13:26:22 |  28016 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 13:26:22 |  28016 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 13:26:23 |  28016 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 13:26:24 |  28016 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 13:26:24 |  28016 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 13:26:25 |  28016 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 13:26:25 |  28016 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 13:26:25 |  28016 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 13:26:25 |  28016 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 13:36:07 |  28356 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 13:36:09 |  28356 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 13:36:09 |  28356 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 13:36:10 |  28356 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 13:36:11 |  28356 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 13:36:11 |  28356 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 13:36:12 |  28356 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 13:36:12 |  28356 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 13:36:12 |  28356 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 13:36:12 |  28356 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 13:43:45 |  16672 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 13:43:46 |  16672 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 13:43:47 |  16672 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 13:43:48 |  16672 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 13:43:49 |  16672 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 13:43:50 |  16672 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 13:43:50 |  16672 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 13:43:51 |  16672 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 13:43:51 |  16672 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 13:43:51 |  16672 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 13:56:40 |  10500 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 13:56:40 |  10500 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 13:56:42 |  10500 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 13:56:43 |  10500 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 13:56:44 |  10500 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 13:56:45 |  10500 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 13:56:46 |  10500 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 13:56:46 |  10500 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 13:56:46 |  10500 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 13:56:46 |  10500 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 14:31:46 |  25644 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 14:31:47 |  25644 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 14:31:47 |  25644 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 14:31:48 |  25644 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 14:31:49 |  25644 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 14:31:49 |  25644 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 14:31:50 |  25644 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 14:31:50 |  25644 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 14:31:50 |  25644 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 14:31:50 |  25644 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 14:42:12 |  15860 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 14:42:13 |  15860 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 14:42:14 |  15860 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 14:42:14 |  15860 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 14:42:15 |  15860 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 14:42:16 |  15860 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 14:42:17 |  15860 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 14:42:17 |  15860 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 14:42:17 |  15860 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 14:44:20 |  17432 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 14:44:21 |  17432 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 14:44:22 |  17432 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 14:44:23 |  17432 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 14:44:23 |  17432 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 14:44:24 |  17432 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 14:44:25 |  17432 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 14:44:25 |  17432 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 14:44:25 |  17432 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 14:46:33 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x9d in position 1143: character maps to <undefined>
+17/03/2025 14:46:33 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x81 in position 450: character maps to <undefined>
+17/03/2025 14:46:34 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x81 in position 221: character maps to <undefined>
+17/03/2025 14:46:34 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x90 in position 243: character maps to <undefined>
+17/03/2025 14:46:35 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x8f in position 145: character maps to <undefined>
+17/03/2025 14:46:35 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x81 in position 1148: character maps to <undefined>
+17/03/2025 14:46:36 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x90 in position 189: character maps to <undefined>
+17/03/2025 14:46:36 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x8d in position 349: character maps to <undefined>
+17/03/2025 14:46:36 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x81 in position 854: character maps to <undefined>
+17/03/2025 14:46:37 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x9d in position 1158: character maps to <undefined>
+17/03/2025 14:46:37 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x8f in position 105: character maps to <undefined>
+17/03/2025 14:46:38 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x81 in position 451: character maps to <undefined>
+17/03/2025 14:46:39 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x8f in position 769: character maps to <undefined>
+17/03/2025 14:46:39 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x81 in position 450: character maps to <undefined>
+17/03/2025 14:46:40 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x90 in position 148: character maps to <undefined>
+17/03/2025 14:46:40 |  17432 | ERROR    | processar_doc_cobranca         | Erro ao processar documento: 'charmap' codec can't decode byte 0x90 in position 829: character maps to <undefined>
+17/03/2025 14:59:56 |  27060 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 14:59:57 |  27060 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 14:59:58 |  27060 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 14:59:59 |  27060 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 14:59:59 |  27060 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 15:00:00 |  27060 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 15:00:01 |  27060 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 15:00:01 |  27060 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 15:00:01 |  27060 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 15:00:15 |  27060 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 15:28:00 |   3080 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 15:28:02 |   3080 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 15:28:02 |   3080 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 15:28:03 |   3080 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 15:28:03 |   3080 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 15:28:04 |   3080 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 15:28:05 |   3080 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 15:28:05 |   3080 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 15:28:05 |   3080 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 15:28:05 |   3080 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 15:53:18 |  17624 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 15:53:19 |  17624 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 15:53:19 |  17624 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 15:53:20 |  17624 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 15:53:21 |  17624 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 15:53:21 |  17624 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 15:53:22 |  17624 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 15:53:23 |  17624 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 15:53:23 |  17624 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 15:53:23 |  17624 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 16:23:50 |  28660 | INFO     | <module>                       | Enviando e-mail com resultados
+17/03/2025 18:04:04 |  20888 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 18:04:05 |  20888 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 18:04:05 |  20888 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 18:04:06 |  20888 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 18:04:06 |  20888 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 18:04:07 |  20888 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 18:04:08 |  20888 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 18:04:08 |  20888 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 18:04:08 |  20888 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 18:04:08 |  20888 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 18:08:15 |  12472 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 18:08:16 |  12472 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 18:08:16 |  12472 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 18:08:17 |  12472 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 18:08:18 |  12472 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 18:08:18 |  12472 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 18:08:19 |  12472 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 18:08:19 |  12472 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 18:08:19 |  12472 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 18:08:19 |  12472 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 18:13:01 |  18848 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 18:13:01 |  18848 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 18:13:02 |  18848 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 18:13:03 |  18848 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 18:13:03 |  18848 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 18:13:04 |  18848 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 18:13:04 |  18848 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 18:13:05 |  18848 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 18:13:05 |  18848 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 18:13:05 |  18848 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 18:18:14 |   8500 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 18:18:15 |   8500 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 18:18:15 |   8500 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 18:18:16 |   8500 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 18:18:17 |   8500 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 18:18:17 |   8500 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 18:18:18 |   8500 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 18:18:18 |   8500 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 18:18:18 |   8500 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 18:18:18 |   8500 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+17/03/2025 18:23:01 |   7220 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+17/03/2025 18:23:02 |   7220 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+17/03/2025 18:23:03 |   7220 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+17/03/2025 18:23:03 |   7220 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+17/03/2025 18:23:04 |   7220 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+17/03/2025 18:23:05 |   7220 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+17/03/2025 18:23:05 |   7220 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+17/03/2025 18:23:06 |   7220 | INFO     | get_all_condominios            | Página 7 processada. 25 condomínios encontrados.
+17/03/2025 18:23:06 |   7220 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 325 condomínios.
+17/03/2025 18:23:06 |   7220 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios

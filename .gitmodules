@@ -1,0 +1,6 @@
+[submodule "superlogica_chamadas_API"]
+	path = superlogica_chamadas_API
+	url = https://github.com/ramiro-estasa/superlogica_chamadas_API
+[submodule "rammer_utils"]
+	path = rammer_utils
+	url = https://github.com/ramiro-estasa/rammer_utils

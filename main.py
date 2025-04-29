@@ -19,6 +19,26 @@ get_header = {
 }
 
 
+from datetime import date, timedelta
+
+from datetime import date, timedelta
+
+def primeiro_e_ultimo_dia_do_mes(data=None):
+    if data is None:
+        data = date.today()
+    primeiro_dia = data.replace(day=1)
+    if data.month == 12:
+        proximo_mes = data.replace(year=data.year + 1, month=1, day=1)
+    else:
+        proximo_mes = data.replace(month=data.month + 1, day=1)
+    ultimo_dia = proximo_mes - timedelta(days=1)
+    return (
+        primeiro_dia.strftime("%m/%d/%Y"),
+        ultimo_dia.strftime("%m/%d/%Y")
+    )
+
+
+
 def ler_configuracao(caminho_arquivo="configuracao.json", ambiente="[GERAL]"):
     try:
         with open(caminho_arquivo, "r", encoding="utf-8") as arquivo:
@@ -68,10 +88,12 @@ def verificar_documentos_de_um_condominio(id_sl):
     page = 1
     info_documentos_cond = []
 
+    datas = primeiro_e_ultimo_dia_do_mes()
+
 #    logger.info(f"Verificando documentos para o condomínio ID: {id_sl}")
 
     while True:
-        url = f'https://api.superlogica.net/v2/condor/impressoes/index?idCondominio={id_sl}&publicadoApenasPara=administracao&dtInicio=03/01/2025&dtFim=03/31/2025&itensPorPagina=50&pagina={page}&comStatus=atuais'
+        url = f'https://api.superlogica.net/v2/condor/impressoes/index?idCondominio={id_sl}&publicadoApenasPara=administracao&dtInicio={datas[0]}&dtFim={datas[1]}&itensPorPagina=50&pagina={page}&comStatus=atuais'
         response = requests.get(url, headers=get_header)
 
         if response.status_code != 200:
@@ -79,9 +101,10 @@ def verificar_documentos_de_um_condominio(id_sl):
             break
 
         data = response.json()
-
+        if id_sl == '234':
+            print("vamos lá")
         hoje = datetime.today().date()  
-        cinco_dias_atras = hoje - timedelta(days=5) 
+        cinco_dias_atras = hoje - timedelta(days=6) 
         for documento in data:
             data_criacao_str = documento.get('dt_criacao_fimp', '')
 
@@ -142,10 +165,12 @@ def processar_doc_cobranca(documento):
             txt_de_unidades_da_remassa = response.content
             
             try:
-                with open('documento_temporario.txt', 'wb') as f:
+                if id_impressao_fimp == 'e0302312':
+                    print("achei")
+                with open(f'documento_temporario.txt', 'wb') as f:
                     f.write(response.content)
 
-                enderecos = extrair_enderecos('documento_temporario.txt')
+                enderecos = extrair_enderecos(f'documento_temporario.txt')
 
                 return enderecos
             except:
@@ -156,8 +181,8 @@ def processar_doc_cobranca(documento):
 
 
 def get_codigo_from_enderecos(enderecos):
-    ids_sl = set()  # Usando um set para evitar duplicados
-
+    codigos_cond = set()  # Usando um set para evitar duplicados
+    endereco_erro = []
     for endereco in enderecos:
         response = requests.get(f"https://servidor-webapp.estasa.net:8085/apisqlserver/get_condominio_by_address?endereco={endereco.get('endereco')}", verify=False)
 
@@ -166,9 +191,12 @@ def get_codigo_from_enderecos(enderecos):
             if all_adress:
                 codigo = all_adress.get('codigo')
                 if codigo:
-                    ids_sl.add(codigo)  # Adiciona no set
-
-    return list(ids_sl)  # Converte para lista no retorno
+                    codigos_cond.add(codigo)  # Adiciona no set
+        else:
+            endereco_erro.append(endereco)
+    
+    logger.error(endereco_erro)
+    return list(codigos_cond)  # Converte para lista no retorno
 
 def get_unidades(id_sl):
     unidades = []
@@ -219,12 +247,12 @@ def get_cobrancas_de_unidade(id_unidade, id_sl):
     return response.json()
 
 
-def processar_cobrancas(cobrancas, condominio, unidade):
+def processar_cobrancas(cobrancas, codigo_cond, unidade):
     for pendente in cobrancas:
         status = pendente.get("fl_remessastatus_recb")
         if status in ['2', '0']:
             return {
-                "condominio": condominio,
+                "condominio": codigo_cond,
                 "unidade": unidade[0],
                 "id_unidade": unidade[1],
                 "fl_status_recb": pendente.get("fl_status_recb", "N/A"),
@@ -280,7 +308,7 @@ def enviar_dados_por_email(lista_resultados, destinatarios, copiados):
     """
     
     corpo += """</ul></body></html>"""
-    mail = criar_email(assunto='Cobranças Sem Confirmação do Banco', corpo=corpo, destinatarios=destinatarios, copiados=copiados)
+    mail = criar_email(assunto='(Superlogica) Cobranças Sem Retorno Bancário - Verificação Necessária', corpo=corpo, destinatarios=destinatarios, copiados=copiados)
     enviar_email(mail)
     return True
 
@@ -292,7 +320,7 @@ def main():
 
     logger.info("Iniciando a verificação de documentos para todos os condomínios")
 
-    for cond in tqdm(conds, desc="Verificando condomínios"):
+    for cond in tqdm(conds, desc="Verificando documentos dos condomínios"):
         documentos = verificar_documentos_de_um_condominio(cond.get("id_condominio_cond"))
     
     

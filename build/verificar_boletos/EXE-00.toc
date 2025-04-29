@@ -3,7 +3,7 @@
  False,
  False,
  'C:\\Users\\Rafael.Moreno\\Documents\\GitHub\\Verificar_boletos\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
- versioninfo.VSVersionInfo(ffi=versioninfo.FixedFileInfo(filevers=(2025, 3, 1, 0), prodvers=(2025, 3, 1, 0), mask=0x3f, flags=0x0, OS=0x4, fileType=1, subtype=0x0, date=(0, 0)), kids=[versioninfo.StringFileInfo([versioninfo.StringTable('040904B0', [versioninfo.StringStruct('CompanyName', 'Estasa'), versioninfo.StringStruct('FileVersion', '2025.3.1'), versioninfo.StringStruct('InternalName', 'verificar_boletos'), versioninfo.StringStruct('LegalCopyright', 'Copyright (c) 2025'), versioninfo.StringStruct('OriginalFilename', 'verificar_boletos.exe'), versioninfo.StringStruct('ProductName', 'verificar_boletos'), versioninfo.StringStruct('ProductVersion', '2025.3.1')])]), versioninfo.VarFileInfo([versioninfo.VarStruct('Translation', [1033, 1200])])]),
+ versioninfo.VSVersionInfo(ffi=versioninfo.FixedFileInfo(filevers=(2025, 4, 2, 0), prodvers=(2025, 4, 2, 0), mask=0x3f, flags=0x0, OS=0x4, fileType=1, subtype=0x0, date=(0, 0)), kids=[versioninfo.StringFileInfo([versioninfo.StringTable('040904B0', [versioninfo.StringStruct('CompanyName', 'Estasa'), versioninfo.StringStruct('FileVersion', '2025.4.2'), versioninfo.StringStruct('InternalName', 'verificar_boletos'), versioninfo.StringStruct('LegalCopyright', 'Copyright (c) 2025'), versioninfo.StringStruct('OriginalFilename', 'verificar_boletos.exe'), versioninfo.StringStruct('ProductName', 'verificar_boletos'), versioninfo.StringStruct('ProductVersion', '2025.4.2')])]), versioninfo.VarFileInfo([versioninfo.VarStruct('Translation', [1033, 1200])])]),
  False,
  False,
  b'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<assembly xmlns='
@@ -142,7 +142,7 @@
  [],
  False,
  False,
- 1742316619,
+ 1744124000,
  [('run.exe',
    'C:\\Users\\Rafael.Moreno\\Documents\\GitHub\\Verificar_boletos\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],

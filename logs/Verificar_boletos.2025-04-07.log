@@ -1,0 +1,171 @@
+07/04/2025 13:20:30 |   6244 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 13:20:31 |   6244 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 13:20:32 |   6244 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 13:20:32 |   6244 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 13:20:33 |   6244 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 13:20:33 |   6244 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 13:20:34 |   6244 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 13:20:35 |   6244 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 13:20:35 |   6244 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 13:20:35 |   6244 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 13:20:35 |   6244 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 13:21:01 |  15244 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 13:21:02 |  15244 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 13:21:02 |  15244 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 13:21:03 |  15244 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 13:21:04 |  15244 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 13:21:04 |  15244 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 13:21:05 |  15244 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 13:21:06 |  15244 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 13:21:06 |  15244 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 13:21:06 |  15244 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 13:21:06 |  15244 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 13:53:22 |  16796 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 13:53:23 |  16796 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 13:53:24 |  16796 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 13:53:25 |  16796 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 13:53:26 |  16796 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 13:53:26 |  16796 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 13:53:27 |  16796 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 13:53:27 |  16796 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 13:53:28 |  16796 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 13:53:28 |  16796 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 13:53:28 |  16796 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 14:06:11 |  16796 | ERROR    | get_codigo_from_enderecos      | [{'endereco': 'AVENIDA ARMANDO LOMBARDI  505', 'bairro': '203       BARR', 'cep': 'A DA TIJ', 'cidade': 'UCA22640020RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA DA QUITANDA  30 GP 1013', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20011030RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'TV LUZ, 17  FUNDOS CASA 5', 'bairro': 'ROCI', 'cep': 'NHA', 'cidade': '22451261RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA CAIRUCU, 259  LOJA A', 'bairro': 'VILA', 'cep': 'VALQUEI', 'cidade': 'RE 21330180RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA MACIEL MONTEIRO, 77  B 13', 'bairro': 'APTO 303  ILHA', 'cep': 'DO GOVE', 'cidade': 'RNA21951550RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'AV FAGUNDES FILHO, 623  TORRE', 'bairro': '1 APTO 186VILA', 'cep': 'MONTE A', 'cidade': 'LEG04304010SAO PAULO', 'uf': 'S'}, {'endereco': 'RUA JOSE LUIZ HOFFMANN  167', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '88180000ANTONIO CARLOS', 'uf': 'S'}, {'endereco': 'RUA LUIZ BELTRAO, 447  APTO 2', 'bairro': '03         VILA', 'cep': 'VALQUEI', 'cidade': 'RE 21321230RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA MEXICO  41 SALA 206', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20031144RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'PC FLORIANO  55  804 805', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20031050RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'AV PELOTAS, 264', 'bairro': 'JARD', 'cep': 'IM GRAMA', 'cidade': 'CHO25055192DUQUE DE CAXIA', 'uf': 'SR'}, {'endereco': 'RUA MEXICO, 41  SALA 206', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20031905RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA MEXICO, 148  1103 A 110', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20031142RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA MEXICO, 41  SALA 206', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20031905RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA SENADOR DANTAS, 117  SALA', 'bairro': '909       CENT', 'cep': 'RO', 'cidade': '20031911RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'AV ERNANI DO AMARAL PEIXOTO,', 'bairro': '60  SALA 50CENT', 'cep': 'RO', 'cidade': '24013900NITEROI', 'uf': 'R'}, {'endereco': 'RUA PAULO VI, 55  BLOCO 02  A', 'bairro': 'PTO 401    FLAM', 'cep': 'ENGO', 'cidade': '22230080RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'AV FRANKLIN ROOSEVELT, 39  SA', 'bairro': 'LA 803     CENT', 'cep': 'RO', 'cidade': '22750006RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA MARANGA, 769  BLOCO B APT', 'bairro': 'O 107      PRAC', 'cep': 'A SECA', 'cidade': '21321060RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA MIGUEL COUTO, 23  SALA 80', 'bairro': '6          CENT', 'cep': 'RO', 'cidade': '20070030RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA TEOTA NIO REGADAS, 26  SA', 'bairro': 'LA 903     CENT', 'cep': 'RO', 'cidade': '20021360RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'PRACA OLAVO BILAC, 28  SALA 2', 'bairro': '004        CENT', 'cep': 'RO', 'cidade': '20041010RIO DE JANAEIR', 'uf': 'OR'}, {'endereco': 'AV 13 DE MAIO, 47  SALA 2801', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20031000RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA ALVARO ALVIM, 27  SOBRELO', 'bairro': 'JA         CENT', 'cep': 'RO', 'cidade': '20031040RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA SABOIA LIMA, 121  CASA', 'bairro': 'TIJU', 'cep': 'CA', 'cidade': '20521250RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'TV VIRGINIA, 93  FUNDOS', 'bairro': 'ABOL', 'cep': 'IA AO', 'cidade': '20755230RIO DE JANEIRO', 'uf': 'R'}]
+07/04/2025 14:19:19 |  10112 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 14:19:21 |  10112 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 14:19:22 |  10112 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 14:19:22 |  10112 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 14:19:23 |  10112 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 14:19:24 |  10112 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 14:19:25 |  10112 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 14:19:26 |  10112 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 14:19:26 |  10112 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 14:19:26 |  10112 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 14:19:26 |  10112 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 14:27:42 |  32200 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 14:27:43 |  32200 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 14:27:44 |  32200 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 14:27:45 |  32200 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 14:27:45 |  32200 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 14:27:46 |  32200 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 14:27:47 |  32200 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 14:27:47 |  32200 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 14:27:48 |  32200 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 14:27:48 |  32200 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 14:27:48 |  32200 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 14:48:08 |  22896 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 14:48:09 |  22896 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 14:48:10 |  22896 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 14:48:11 |  22896 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 14:48:12 |  22896 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 14:48:12 |  22896 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 14:48:13 |  22896 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 14:48:14 |  22896 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 14:48:14 |  22896 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 14:48:14 |  22896 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 14:48:14 |  22896 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 14:51:54 |  22896 | ERROR    | get_codigo_from_enderecos      | []
+07/04/2025 14:53:32 |  13880 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 14:53:33 |  13880 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 14:53:34 |  13880 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 14:53:35 |  13880 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 14:53:35 |  13880 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 14:53:36 |  13880 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 14:53:37 |  13880 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 14:53:38 |  13880 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 14:53:38 |  13880 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 14:53:38 |  13880 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 14:53:38 |  13880 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 16:31:55 |  14288 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 16:31:57 |  14288 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 16:31:58 |  14288 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 16:31:58 |  14288 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 16:31:59 |  14288 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 16:32:00 |  14288 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 16:32:01 |  14288 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 16:32:01 |  14288 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 16:32:02 |  14288 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 16:32:02 |  14288 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 16:32:02 |  14288 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 16:32:41 |   9612 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 16:32:41 |   9612 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 16:32:42 |   9612 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 16:32:43 |   9612 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 16:32:43 |   9612 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 16:32:44 |   9612 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 16:32:45 |   9612 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 16:32:45 |   9612 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 16:32:46 |   9612 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 16:32:46 |   9612 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 16:32:46 |   9612 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 16:37:34 |  26368 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 16:37:36 |  26368 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 16:37:36 |  26368 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 16:37:37 |  26368 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 16:37:38 |  26368 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 16:37:38 |  26368 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 16:37:39 |  26368 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 16:37:39 |  26368 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 16:37:40 |  26368 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 16:37:40 |  26368 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 16:37:40 |  26368 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 16:38:51 |  31188 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 16:38:52 |  31188 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 16:38:53 |  31188 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 16:38:54 |  31188 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 16:38:54 |  31188 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 16:38:55 |  31188 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 16:38:56 |  31188 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 16:38:56 |  31188 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 16:38:57 |  31188 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 16:38:57 |  31188 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 16:38:57 |  31188 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 16:46:18 |   7532 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 16:46:19 |   7532 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 16:46:20 |   7532 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 16:46:20 |   7532 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 16:46:21 |   7532 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 16:46:22 |   7532 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 16:46:22 |   7532 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 16:46:23 |   7532 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 16:46:23 |   7532 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 16:46:23 |   7532 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 16:46:23 |   7532 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 16:47:30 |  28520 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 16:47:31 |  28520 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 16:47:32 |  28520 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 16:47:33 |  28520 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 16:47:33 |  28520 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 16:47:34 |  28520 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 16:47:35 |  28520 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 16:47:35 |  28520 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 16:47:36 |  28520 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 16:47:36 |  28520 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 16:47:36 |  28520 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 16:51:11 |  28520 | ERROR    | get_codigo_from_enderecos      | []
+07/04/2025 16:52:12 |  28520 | INFO     | main                           | Nao exite cobranças sem confirmação
+07/04/2025 16:52:40 |  30052 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 16:52:41 |  30052 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 16:52:43 |  30052 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 16:52:44 |  30052 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 16:52:45 |  30052 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 16:52:45 |  30052 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 16:52:48 |  30052 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 16:52:50 |  30052 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 16:52:50 |  30052 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 16:52:50 |  30052 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 16:52:50 |  30052 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 16:55:50 |  28416 | INFO     | get_all_condominios            | Iniciando busca de todos os condomínios
+07/04/2025 16:55:51 |  28416 | INFO     | get_all_condominios            | Página 1 processada. 50 condomínios encontrados.
+07/04/2025 16:55:52 |  28416 | INFO     | get_all_condominios            | Página 2 processada. 50 condomínios encontrados.
+07/04/2025 16:55:52 |  28416 | INFO     | get_all_condominios            | Página 3 processada. 50 condomínios encontrados.
+07/04/2025 16:55:53 |  28416 | INFO     | get_all_condominios            | Página 4 processada. 50 condomínios encontrados.
+07/04/2025 16:55:54 |  28416 | INFO     | get_all_condominios            | Página 5 processada. 50 condomínios encontrados.
+07/04/2025 16:55:54 |  28416 | INFO     | get_all_condominios            | Página 6 processada. 50 condomínios encontrados.
+07/04/2025 16:55:55 |  28416 | INFO     | get_all_condominios            | Página 7 processada. 50 condomínios encontrados.
+07/04/2025 16:55:55 |  28416 | INFO     | get_all_condominios            | Página 8 processada. 23 condomínios encontrados.
+07/04/2025 16:55:55 |  28416 | INFO     | get_all_condominios            | Busca de condomínios concluída. Total de 373 condomínios.
+07/04/2025 16:55:55 |  28416 | INFO     | main                           | Iniciando a verificação de documentos para todos os condomínios
+07/04/2025 17:10:53 |  28416 | ERROR    | get_codigo_from_enderecos      | [{'endereco': 'AV JAIME POGGI, 99  BL 01 APT', 'bairro': 'O 711      JACA', 'cep': 'REPAGUA', 'cidade': '22775130RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'AV JAIME POGGI, 99  BL 01 APT', 'bairro': 'O 711      JACA', 'cep': 'REPAGUA', 'cidade': '22775130RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'AV JAIME POGGI, 99  BL 01 APT', 'bairro': 'O 711      JACA', 'cep': 'REPAGUA', 'cidade': '22775130RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA DA QUITANDA  03 - SALA 11', 'bairro': '01         CENT', 'cep': 'RO', 'cidade': '20011030RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'AV JAIME POGGI, 99  BL 01 APT', 'bairro': 'O 711      JACA', 'cep': 'REPAGUA', 'cidade': '22775130RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'AV JAIME POGGI, 99  BL 01 APT', 'bairro': 'O 711      JACA', 'cep': 'REPAGUA', 'cidade': '22775130RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'AV JAIME POGGI, 99  BL 01 APT', 'bairro': 'O 711      JACA', 'cep': 'REPAGUA', 'cidade': '22775130RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA VLAMINCK  40 301 BL 18', 'bairro': 'DEL', 'cep': 'CASTILHO', 'cidade': '20771360RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA OSWALDO PAES  21 APTO 201', 'bairro': 'BARR', 'cep': 'A DA TIJ', 'cidade': 'UCA22620000RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA DO RESENDE  56 204', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20231094RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA ARISIO LESSA  13 201', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '28035000CAMPOS DOS GOY', 'uf': 'TR'}, {'endereco': 'RUA CONSTANTE RAMOS  121 APTO', 'bairro': '. 1002     COPA', 'cep': 'CABANA', 'cidade': '22051011RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA DONATO RIBEIRO  160 - FRE', 'bairro': 'NTE        CAMP', 'cep': 'O GRANDE', 'cidade': '23090340RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA CACAPAVA  110   401', 'bairro': 'GRAJ', 'cep': 'AU', 'cidade': '20541350RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA DEBRET  79 806 12-A', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20030080RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA PASTOR GABINO BRELAZ 1397', 'bairro': 'APTO 1502CAPI', 'cep': 'M MACIO', 'cidade': '59082010NATAL', 'uf': 'R'}, {'endereco': 'PRACA SAENS PENA  45 LJ 226', 'bairro': 'TIJU', 'cep': 'CA', 'cidade': '20528900RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA DONA DELFINA  50   501', 'bairro': 'TIJU', 'cep': 'CA', 'cidade': '20511270RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA MIGUEL COUTO  105 SALA 42', 'bairro': '5          CENT', 'cep': 'RO', 'cidade': '20070030RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA DEBRET  79  S 807', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20030080RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA DA QUITANDA  52 16 ANDAR', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20011030RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA MIGUEL COUTO  105  425', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20070030RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA MEXICO 119  119 SALA 2001', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20031907RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA GUTMAN BICHO  85', 'bairro': 'BING', 'cep': 'EN', 'cidade': '25665020PETROPOLIS', 'uf': 'R'}, {'endereco': 'RUA BANDEIRA PAULISTA  600 -', 'bairro': 'CJ 73      ITAI', 'cep': 'M BIBI', 'cidade': '04532001SAO PAULO', 'uf': 'S'}, {'endereco': 'RUA BANDEIRA PAULISTA  600 -', 'bairro': 'CJ 73      ITAI', 'cep': 'M BIBI', 'cidade': '04532001SAO PAULO', 'uf': 'S'}, {'endereco': 'RUA BANDEIRA PAULISTA  600 -', 'bairro': 'CJ 73      ITAI', 'cep': 'M BIBI', 'cidade': '04532001SAO PAULO', 'uf': 'S'}, {'endereco': 'RUA BANDEIRA PAULISTA  600 -', 'bairro': 'CJ 73      ITAI', 'cep': 'M BIBI', 'cidade': '04532001SAO PAULO', 'uf': 'S'}, {'endereco': 'BECO DO BRAGANCA  22 SALA 302', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20091010RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA DA LAPA  200 APTO 806', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20021180RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA SQS 305  BLOCO K 602', 'bairro': 'ASA', 'cep': 'SUL', 'cidade': '70352000BRASILIA', 'uf': 'D'}, {'endereco': 'RUA DA QUITANDA  30 SALA 910', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20011030RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'AVENIDA ERASMO BRAGA  277, SA', 'bairro': 'LA 1107    CENT', 'cep': 'RO', 'cidade': '20020000RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA DO CARMO  71  6   ANDAR', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20011020RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA JURUENA  335 APTO. 404', 'bairro': 'AGRI', 'cep': 'OES', 'cidade': '25963040TERESOPOLIS', 'uf': 'R'}, {'endereco': 'TRAVESSA DOUTOR ARAUJO  185', 'bairro': 'PRAC', 'cep': 'A DA BAN', 'cidade': 'DEI20270070RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA PAULA LIMA  21 APTO 1302', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '36015160JUIZ DE FORA', 'uf': 'M'}, {'endereco': 'RUA JALES  60 CS. 1', 'bairro': 'ANIL', 'cep': '', 'cidade': '22753550RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'AVENIDA PRES VARGAS  590  406', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20071000R DE JANEIRO', 'uf': 'R'}, {'endereco': 'AVENIDA OLOF PALME  505 BLOCO', 'bairro': '02 APTO 40CAMO', 'cep': 'RIM', 'cidade': '22783119RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA JOHN KENNEDY  49 301', 'bairro': 'BARR', 'cep': 'A DA TIJ', 'cidade': 'UCA22620260RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA DOS ARAUJOS  86, APTO 503', 'bairro': 'TIJU', 'cep': 'CA', 'cidade': '20521000RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA ALAMEDA DOS IPE  13', 'bairro': 'PINH', 'cep': 'EIROS', 'cidade': '37030640VARGINHA', 'uf': 'M'}, {'endereco': 'RUA SENADOR CORREA  44   404', 'bairro': 'LARA', 'cep': 'NJEIRAS', 'cidade': '22231180RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA DO CARMO  71  6  ANDAR', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20011020RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA JOAO DE SOUZA DIAS  854', 'bairro': '171       CAMP', 'cep': 'O BELO', 'cidade': '04618003SAO PAULO', 'uf': 'S'}, {'endereco': 'RUA URUGUAIANA  10 SALA 1612', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '22050090RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA RODOLFO DANTAS  6   902', 'bairro': 'COPA', 'cep': 'CABANA', 'cidade': '22020040RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA DO CARMO  71   6  ANDAR', 'bairro': 'CENT', 'cep': 'RO', 'cidade': '20011020RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'RUA GLAZIOU  24 SOBRELOJA', 'bairro': 'PILA', 'cep': 'RES', 'cidade': '20750010RIO DE JANEIRO', 'uf': 'R'}, {'endereco': 'PRACA OLAVO DE BILAC  28   GR', 'bairro': '1606 A 160CENT', 'cep': 'RO', 'cidade': '20041010RIO DE JANEIRO', 'uf': 'R'}]
+07/04/2025 19:03:31 |  28416 | INFO     | main                           | Enviando e-mail com resultados

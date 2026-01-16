@@ -5,7 +5,8 @@
         "caminho_pasta": "C:\\docs\\",
         "arquivo_padrao_mascara": "configuracoes.xlsx",
         "arquivo_padrao_endereco": "enderecos.xlsx",
-        "destinatarios" : ["rafael.moreno@estasa.com.br"],
+        "destinatarios_cac": ["devs@estasa.com.br"],
+        "destinatarios_operacional" : ["devs@estasa.com.br"],
         "copiados" : ["rafael.moreno@estasa.com.br"]
         
     },

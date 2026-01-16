@@ -13,7 +13,7 @@ from version import __version__, __version_info__
 config_file = ''
 
 # Defina as seguintes variáveis para seu projeto
-entry_point = 'main.py'
+entry_point = 'main3.py'
 project = 'verificar_boletos'
 exe_name = f'{project}'
 

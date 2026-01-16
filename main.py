@@ -3,14 +3,14 @@ import json
 import time
 from superlogica_chamadas_API.preparo_condominio import PreparoCondominio
 from rammer_utils.utils.email import enviar_email, criar_email
-from rammer_utils.utils.log import init_root_logger
+from rammer_utils.utils.log import init_main_logger
 from rammer_utils.utils.config import Config
 import logging
 from tqdm import tqdm
 import re
-from datetime import datetime, timedelta
-init_root_logger()
-logger = logging.getLogger(__name__)
+from datetime import datetime, timedelta, date
+
+logger = init_main_logger('verificar_cobranças')
 
 get_header = {
     'Content-Type': 'application/json',
@@ -19,9 +19,9 @@ get_header = {
 }
 
 
-from datetime import date, timedelta
 
-from datetime import date, timedelta
+
+
 
 def primeiro_e_ultimo_dia_do_mes(data=None):
     if data is None:
@@ -94,7 +94,7 @@ def verificar_documentos_de_um_condominio(id_sl):
 
     while True:
         url = f'https://api.superlogica.net/v2/condor/impressoes/index?idCondominio={id_sl}&publicadoApenasPara=administracao&dtInicio={datas[0]}&dtFim={datas[1]}&itensPorPagina=50&pagina={page}&comStatus=atuais'
-        response = requests.get(url, headers=get_header)
+        response = requests.get(url, headers=get_header, timeout=10)
 
         if response.status_code != 200:
             logger.error(f"Erro ao acessar a API para condomínio {id_sl}: {response.status_code}")
@@ -178,8 +178,6 @@ def processar_doc_cobranca(documento):
         except:
             pass
 
-
-
 def get_codigo_from_enderecos(enderecos):
     codigos_cond = set()  # Usando um set para evitar duplicados
     endereco_erro = []
@@ -236,35 +234,42 @@ def get_cobrancas_de_unidade(id_unidade, id_sl):
             f'&apenasColunasPrincipais=1&exibirPgtoComDiferenca=1&comContatosDaUnidade=1'
             f'&idCondominio={id_sl}&dtInicio={primeiro_dia}&dtFim={ultimo_dia_str}'
             f'&UNIDADES[0]={id_unidade}&itensPorPagina=50&pagina=1')
-
-    response = requests.get(url, headers=get_header)
-    time.sleep(1.5)  # Respeitar limite de requisição da API
-
-    if response.status_code != 200:
-        logger.error(f"Erro ao acessar a API para unidade {id_unidade}: {response.status_code}")
+    try:
+        response = requests.get(url, headers=get_header, timeout=10)
+        time.sleep(1.5)  # Respeitar limite de requisição da API
+    
+        if response.status_code != 200:
+            return []
+        
+        return response.json()
+    except Exception as e:
+        logger.info(f"Erro ao pegar a cobrança de uma unidade : {e}")
+    
+        logger.error(f"Erro ao acessar a API para unidade {id_unidade}")
         return []
-
-    return response.json()
-
 
 def processar_cobrancas(cobrancas, codigo_cond, unidade):
     for pendente in cobrancas:
         status = pendente.get("fl_remessastatus_recb")
         if status in ['2', '0']:
+            
+
             return {
                 "condominio": codigo_cond,
                 "unidade": unidade[0],
                 "id_unidade": unidade[1],
                 "fl_status_recb": pendente.get("fl_status_recb", "N/A"),
                 "fl_remessastatus_recb": status,
+                "dt_geracao_recb" : pendente.get('dt_geracao_recb', 'N/A'),
                 "id_recebimento_recb": pendente.get("id_recebimento_recb", "N/A"),
                 "st_documento_recb": pendente.get("st_documento_recb", "N/A"),
                 "dt_vencimento_recb": pendente.get("dt_vencimento_recb", "N/A"),
-                "vl_total_recb": pendente.get("vl_total_recb", "N/A")
+                "vl_total_recb": pendente.get("vl_total_recb", "N/A"),
+                "st_label_recb" :pendente.get("st_label_recb", "")
             }
     return None
 
-def enviar_dados_por_email(lista_resultados, destinatarios, copiados):
+def enviar_dados_por_email_operacional(lista_resultados, destinatarios, copiados):
     corpo = """
     <html>
         <head>
@@ -279,24 +284,32 @@ def enviar_dados_por_email(lista_resultados, destinatarios, copiados):
         </head>
         <body>
             <h2>Resultados:</h2>
-            <table>
+            <p>
+            Esta planilha contém cobranças sem retorno bancário emitidas pelo time da Operacional.
+            Caso identifique alguma cobrança que não tenha sido emitida pela Operacional, entre em contato com o time de desenvolvedores pelo e-mail devs@estasa.com.br para que possamos corrigir o programa.</p>
+                <table>
                 <tr>
-                    <th>Condominio</th>
-                    <th>Data de Vencimento</th>
+                    <th>Condomínio</th>
+                    <th>Vencimento</th>
+                    <th>Data da Criação da Cobrança</th>
                     <th>ID da cobrança</th>
                 </tr>
     """
     
     for resultado in lista_resultados:
-        condominio = resultado.get("condominio", "N/A")
+        condominio = str(resultado.get("condominio", "N/A")).zfill(4)
         dt_vencimento_str = resultado.get("dt_vencimento_recb", "N/A")
         dt_vencimento = dt_vencimento_str.split()[0]
+        data_str = resultado.get("dt_geracao_recb").split()[0]
+        data_obj = datetime.strptime(data_str, "%m/%d/%Y")   
+        dt_geracao_recb = data_obj.strftime("%d/%m/%Y")
         dt_vencimento = datetime.strptime(dt_vencimento, "%m/%d/%Y").strftime("%d/%m/%Y")
         id_recebimento_recb = resultado.get('id_recebimento_recb', "N/A")
         corpo += f"""
                 <tr>
                     <td>{condominio}</td>
                     <td>{dt_vencimento}</td>
+                    <td>{dt_geracao_recb}</td>
                     <td>{id_recebimento_recb}</td>
                 </tr>
         """
@@ -308,9 +321,122 @@ def enviar_dados_por_email(lista_resultados, destinatarios, copiados):
     """
     
     corpo += """</ul></body></html>"""
-    mail = criar_email(assunto='(Superlogica) Cobranças Sem Retorno Bancário - Verificação Necessária', corpo=corpo, destinatarios=destinatarios, copiados=copiados)
+    mail = criar_email(assunto='(Superlogica) Cobranças Sem Retorno Bancário OPERACIONAL - Verificação Necessária', corpo=corpo, destinatarios=destinatarios, copiados=copiados)
     enviar_email(mail)
     return True
+
+
+
+def enviar_dados_por_email_operacional_e_cac(lista_resultados, destinatarios_cac, destinatarios_operacional, copiados):
+    corpo = """
+    <html>
+        <head>
+            <style>
+                body { font-family: Arial, sans-serif; }
+                h2 { color: #2c3e50; }
+                table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #2c3e50; color: white; }
+                tr:nth-child(even) { background-color: #f2f2f2; }
+            </style>
+        </head>
+        <body>
+            <h2>Condomínios com Cobranças sem Retorno Bancário</h2>
+            <p>
+                Abaixo estão listados os condomínios com a quantidade de cobranças que ainda não possuem retorno bancário.<br>
+            </p>
+            <table>
+                <tr>
+                    <th>ID do Condomínio</th>
+                    <th>Quantidade de Unidades sem Retorno</th>
+                </tr>
+    """
+
+    for id_condominio, quantidade in lista_resultados:
+        id_formatado = str(id_condominio).zfill(4)
+        corpo += f"""
+                <tr>
+                    <td>{id_formatado}</td>
+                    <td>{quantidade}</td>
+                </tr>
+        """
+
+    corpo += """
+            </table>
+        </body>
+    </html>
+    """
+
+    # Envia para CAC + Operacional
+    destinatarios = destinatarios_cac + destinatarios_operacional
+
+    mail = criar_email(
+        assunto='(Superlogica) Cobranças Sem Retorno Bancário - Verificação Necessária',
+        corpo=corpo,
+        destinatarios=destinatarios,
+        copiados=copiados
+    )
+
+    enviar_email(mail)
+    return True
+
+
+def enviar_dados_por_email_CAC(lista_resultados, destinatarios, copiados):
+    corpo = """
+    <html>
+        <head>
+            <style>
+                body { font-family: Arial, sans-serif; }
+                h2 { color: #2c3e50; }
+                table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #2c3e50; color: white; }
+                tr:nth-child(even) { background-color: #f2f2f2; }
+            </style>
+        </head>
+        <body>
+            <h2>Resultados:</h2>
+            <p>
+                Esta planilha contém cobranças sem retorno bancário emitidas pelo time da CAC.
+                Caso identifique alguma cobrança que não tenha sido emitida pela CAC, entre em contato com o time de desenvolvedores pelo e-mail devs@estasa.com.br para que possamos corrigir o programa.
+            </p>
+            <table>
+                <tr>
+                    <th>Condominio</th>
+                    <th>Data de Vencimento</th>
+                    <th>Data da Criação do Cobrança</th>
+                    <th>ID da cobrança</th>
+                </tr>
+    """
+    
+    for resultado in lista_resultados:
+        condominio = str(resultado.get("condominio", "N/A")).zfill(4)
+        dt_vencimento_str = resultado.get("dt_vencimento_recb", "N/A")
+        dt_vencimento = dt_vencimento_str.split()[0]
+        dt_vencimento = datetime.strptime(dt_vencimento, "%m/%d/%Y").strftime("%d/%m/%Y")
+        dt_geracao_recb = resultado.get("dt_geracao_recb","N/A").split()[0]
+        dt_geracao_recb = datetime.strptime(dt_geracao_recb, "%m/%d/%Y").strftime("%d/%m/%Y")
+        id_recebimento_recb = resultado.get('id_recebimento_recb', "N/A")
+        corpo += f"""
+                <tr>
+                    <td>{condominio}</td>
+                    <td>{dt_vencimento}</td>
+                    <td>{dt_geracao_recb}</td>
+                    <td>{id_recebimento_recb}</td>
+                </tr>
+        """
+    corpo += """
+            </table>
+        </body>
+    </html>
+    """
+    
+    corpo += """</ul></body></html>"""
+    mail = criar_email(assunto='(Superlogica) Cobranças Sem Retorno Bancário CAC - Verificação Necessária', corpo=corpo, destinatarios=destinatarios, copiados=copiados)
+    enviar_email(mail)
+    return True
+
+
 
 def main():
     conds = get_all_condominios()
@@ -344,26 +470,46 @@ def main():
             if str(codigo) == cond.get('st_label_cond'):
                 tuplas_codigo_id.append((codigo ,cond.get('id_condominio_cond')))
 
-    lista_de_cobranca_para_email = []
-    
+    lista_de_cobranca_para_email_cac = []
+    lista_de_cobranca_para_email_operacional = []
+    lista_de_cobranca_para_email_cac_e_operacional = []
     config = ler_configuracao()
-    destinatarios = config.get('destinatarios')
+    destinatarios_cac = config.get('destinatarios_cac')
+    destinatarios_operacional = config.get('destinatarios_operacional')
     copiados = config.get('copiados')
 
     for id_sl in tqdm(tuplas_codigo_id, desc="Verificando as cobranças de cada condomino"):
         unidades = search_id_unidades(get_unidades(id_sl[1]))
-
+        unidades_sem_retorno = []
         for unidade in tqdm(unidades, desc=f"verificando unidades do condominio {id_sl[0]}"):
             cobrancas = get_cobrancas_de_unidade(unidade[1], id_sl[1])
             resultado = processar_cobrancas(cobrancas, id_sl[0], unidade)
-
+            
             if resultado:
-                lista_de_cobranca_para_email.append(resultado)
-                break  # Para de processar o condomínio ao encontrar a primeira cobrança válida
-
-    if lista_de_cobranca_para_email:
-        logger.info("Enviando e-mail com resultados")
-        enviar_dados_por_email(lista_de_cobranca_para_email, destinatarios, copiados)
+                    if resultado.get('st_label_recb') in ['ACORDO','INADIMPLENTE']:
+                        datahoje = datetime.now()
+                        vencimento_str = resultado.get('dt_vencimento_recb').split()[0]
+                        vencimento = datetime.strptime(vencimento_str.replace('/', '-'), '%m-%d-%Y')
+                        if vencimento > datahoje:
+                            lista_de_cobranca_para_email_cac.append(resultado)
+                        else:
+                            logger.info(resultado)
+                    else:
+                        unidades_sem_retorno.append(resultado)
+        if len(unidades) == len(unidades_sem_retorno):
+            lista_de_cobranca_para_email_operacional.append((id_sl[0], len(unidades_sem_retorno)))
+            
+        if len(unidades_sem_retorno) > 1 and len(unidades_sem_retorno) < len(unidades):
+            lista_de_cobranca_para_email_cac_e_operacional(id_sl[0], len(unidades_sem_retorno) )
+    if lista_de_cobranca_para_email_cac_e_operacional:
+        logger.info("Enviando um email com os resultados para cac e operacional")
+        enviar_dados_por_email_operacional_e_cac(lista_de_cobranca_para_email_cac_e_operacional, destinatarios_cac, destinatarios_operacional, copiados)
+    if lista_de_cobranca_para_email_cac:
+        logger.info("Enviando e-mail com resultados para o cac")
+        enviar_dados_por_email_CAC(lista_de_cobranca_para_email_cac, destinatarios_cac, copiados)
+    if lista_de_cobranca_para_email_operacional:
+        logger.info("Enviando e-mail com resultados para o operacional")
+        enviar_dados_por_email_operacional(lista_de_cobranca_para_email_operacional, destinatarios_operacional, copiados)
     else:
         logger.info("Nao exite cobranças sem confirmação")
 
